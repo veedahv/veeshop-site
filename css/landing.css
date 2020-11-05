@@ -241,21 +241,8 @@ footer {
     #home h2 {
         font-size: 20px;
     }
-    .side-nav-show {
-        display: block;
-        width: 70%;
-        position: absolute;
-        height: 100vh;
-        z-index: 5;
-        animation: slideIn .1s ease-out;
-    }
-    .side-nav-show .close-div  {
-        display: block;
-        top: 20px;
-        left: 20px;
-    }
-    .hamburger {
-        display: block;
+    .about-card {
+        flex-direction: column-reverse;
     }
 }
 @media only screen and (min-width: 1000px) {
