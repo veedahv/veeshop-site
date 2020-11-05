@@ -183,8 +183,8 @@ footer {
     color: var(--white);
 }
 @media only screen and (max-width: 568px) {
-    .about .card .card-title {
-        font-size: 25px;
+    .about-card {
+        flex-direction: column-reverse;
     }
     .product-row {
         flex-direction: column-reverse;
@@ -240,9 +240,6 @@ footer {
     }
     #home h2 {
         font-size: 20px;
-    }
-    .about-card {
-        flex-direction: column-reverse;
     }
 }
 @media only screen and (min-width: 1000px) {
