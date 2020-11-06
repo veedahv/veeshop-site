@@ -186,40 +186,27 @@ footer {
     .about-card {
         flex-direction: column-reverse;
     }
-    .product-row {
-        flex-direction: column-reverse;
-    }
     .mobile-none {
         display: none;
     }
     #home img {
         max-height: 295px;
     }
-}
-@media only screen and (max-width: 375px) {
-    .about .card .card-title {
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .section-heading {
+        font-weight: 600;
         font-size: 25px;
     }
-    .product-row {
-        flex-direction: column-reverse;
-    }
-    .mobile-none {
-        display: none;
-    }
+}
+@media only screen and (max-width: 375px) {
     #home img {
         max-height: 275px;
     }
 }
 @media only screen and (max-width: 320px) {
-    .about .card .card-title {
-        font-size: 25px;
-    }
-    .product-row {
-        flex-direction: column-reverse;
-    }
-    .mobile-none {
-        display: none;
-    }
     #home img {
         max-height: 245px;
     }
