@@ -169,7 +169,8 @@ header li {
     outline: none;
 }
 #contact {
-    background: url('../images/contact.jpg') center center/cover no-repeat;
+    /* background: url('../images/contact.jpg') center center/cover no-repeat; */
+    background: url('../images/contact-img.jpg') center center/cover no-repeat;
     background-attachment: fixed;
     color: var(--white);
 }
